@@ -4,7 +4,7 @@ def count_batteries_by_usage(cycles):
     "mediumCount":0,
     "highCount":0
   }
-  #parsing the cycles to check the battery usage times
+  
   for i in cycles:
     if i<400:
       dict["lowCount"]+=1
